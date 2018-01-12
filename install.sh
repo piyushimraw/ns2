@@ -1,20 +1,20 @@
 #!/bin/bash
 
-# echo "Tantra Network Simulator 2 Installer";
-# echo "Initializing Installation......";
-# sleep 2;
-# tar -xvzf ns2.tar.gz;
+echo "Tantra Network Simulator 2 Installer";
+echo "Initializing Installation......";
+sleep 2;
+tar -xvzf ns2.tar.gz;
 
 echo "Installing Dependencies..........";
 sleep 2;
-# sudo apt-get update;
-# sudo apt-get install build-essential autoconf automake libxmu-dev -y;
-# sudo apt-get install gcc-4.4 -y;
+sudo apt-get update;
+sudo apt-get install build-essential autoconf automake libxmu-dev -y;
+sudo apt-get install gcc-4.4 -y;
 
 echo "Making File and running Initial Builds..........";
 sleep 2;
-# cd ns-allinone-2.35/;
-# sudo ./install
+cd ns-allinone-2.35/;
+sudo ./install
 
 
 #setting Up enviroment Variables 
