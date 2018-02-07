@@ -11,3 +11,6 @@ Run the Installer by
 ```
 sudo ./install
 ```
+
+
+Reboot the system
